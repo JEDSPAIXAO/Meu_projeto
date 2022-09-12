@@ -2,6 +2,15 @@ body,ul {
   margin: 0px;
   padding: 0px;
 }
+
+body p {
+    font-size: 20px;
+}
+
+.meu_hobb {
+    font-size: 20px;
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -15,7 +24,7 @@ a:hover {
     font-weight: bold;
 }
 #header {
-    box-sizing:border-box
+    box-sizing:border-box;
     height: 70px;
     padding: 1rem;
     display: flex;
@@ -52,7 +61,7 @@ a:hover {
 
 
 #contato{
-    height:calc(100vh + 80px)
+    height:calc(100vh + 80px);
     width: 100%;
     display: flex;
     justify-content: center;
